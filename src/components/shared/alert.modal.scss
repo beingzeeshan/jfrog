@@ -1,0 +1,36 @@
+/*** Font Rules ***/
+@font-face {
+	font-family: CiscoSansTTRegular;
+	src: url('../../../fonts/CiscoSansTTRegular.ttf') format('truetype');
+}
+
+.alert-modal-container {
+	.alert-button-container {
+		width: 10%;
+		margin: auto;
+		.alert-button {
+			background: #00bceb 0% 0% no-repeat padding-box;
+			border-radius: 20px;
+			opacity: 1;
+			width: 100%;
+		}
+		.alert-button-text {
+			text-align: left;
+			font: normal normal normal 14px/18px CiscoSansTTRegular;
+			letter-spacing: 0px;
+			color: #ffffff;
+			opacity: 1;
+		}
+		.MuiButton-root:hover {
+			text-decoration: none;
+			background-color: #00bceb;
+		}
+	}
+	.close-btn {
+		.close-img {
+			height: 16px;
+			opacity: 0.5;
+			cursor: pointer;
+		}
+	}
+}

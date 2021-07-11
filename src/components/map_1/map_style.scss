@@ -1,0 +1,129 @@
+.LegendText {
+	border: 1px solid #707070;
+	padding: 12px 0px 12px 0px;
+	position: relative;
+	display: list-item;
+	font-size: 14px;
+	color: #707070;
+	box-sizing: content-box;
+	bottom: -70px;
+	background-color: #fff;
+}
+.labelSize {
+	font-size: 20px;
+	position: relative;
+	bottom: 7px;
+	padding: 10px 10px 0px 0px;
+	color: #707070;
+}
+.totalSites {
+	padding: 10px 0px;
+	font-size: 40px;
+	color: #707070;
+	font-family: 'Helvetica Neue';
+}
+.statisticsRect {
+	border: 1px solid #707070;
+	z-index: 1;
+}
+.flex-container {
+	display: flex;
+	text-align: center;
+}
+
+.flex-container > div {
+	padding: 0px 30px 0px 20px;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #707070;
+	font-family: 'Helvetica Neue';
+}
+
+.flex-container > div > div {
+	padding-top: 5px;
+	font-size: 22px;
+	line-height: 1.5;
+	color: #707070;
+	font-family: 'Helvetica Neue';
+}
+.boxTitle {
+	font-size: 14px;
+	font-family: 'Helvetica Neue';
+	font-weight: bold;
+	line-height: 1.5;
+	color: #707070;
+}
+
+.boxContent {
+	font-size: 14px;
+	font-family: 'Helvetica Neue';
+	color: #707070;
+	line-height: 1.5;
+}
+
+.currentTime {
+	padding-top: 20px;
+	font-size: 28px;
+	font-family: 'Helvetica Neue';
+	line-height: 1.5;
+	color: #707070;
+}
+
+.mainTabs {
+	background-color: #fff;
+}
+
+.refresh-button {
+	float: right;
+}
+.siteName,
+.siteLocation,
+.noPods,
+.healthStatus {
+	font-size: 14px;
+	color: #707070;
+	font-family: "Helvetica Neue";
+	line-height: 1.5;
+}
+
+.siteName > div,
+.siteLocation > div,
+.noPods > div,
+.healthStatus > div {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.mapControls {
+	display: grid;
+	float: right;
+	color: #707070;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.demo {
+	padding: 5px;
+	position: absolute;
+	background-color: #fff;
+  }
+  .critical {
+	  border:1px solid #E80909;
+  }
+  .warning {
+	  border:1px solid #f7c318;
+  }
+  
+  .good {
+	  border:1px solid #4ac30a;
+  }
+  .dot {
+	  top: -101px;
+	  position: relative;
+	  font-size: 130px;
+	  color: red;
+	  right: -15px;
+  }
+  .colos {
+	  cursor: pointer;
+  }

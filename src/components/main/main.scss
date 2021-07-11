@@ -1,0 +1,83 @@
+.container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-1 {
+	text-align: left;
+	font: normal normal bold 20px/23px CiscoSansTTRegular;
+	letter-spacing: 0px;
+	color: #4d4c4c;
+}
+
+.title-Edge {
+	text-align: left;
+	font: normal normal bold 20px/23px CiscoSansTTRegular;
+	letter-spacing: 0px;
+	color: #00bff0;
+}
+
+.border {
+	width: 2%;
+	border-right: 1px solid #b4b5b5;
+	opacity: 0.2;
+	height: 21px;
+}
+
+.title-container {
+	margin-left: 2%;
+}
+
+.right-container {
+	margin-left: auto;
+}
+
+.user-style {
+	text-align: center;
+	font: normal normal normal 14px/30px CiscoSansTTRegular;
+	letter-spacing: 0px;
+	color: #727272;
+	opacity: 1;
+	margin-right: 5px;
+	position: relative;
+	bottom: 7px;
+}
+
+.user-menu {
+	color: #e0dfdf;
+	opacity: 1;
+	cursor: pointer;
+	margin-top: 16px;
+
+	circle {
+		r: 12;
+	}
+}
+
+.user-icon {
+	display: inline;
+}
+
+.left-drawer-menu {
+	.MuiDrawer-paper {
+		top: auto;
+	}
+
+	.item-text {
+		.MuiTypography-body1 {
+			text-align: left;
+			font: normal normal bold 14px/40px CiscoSansTTRegular;
+			letter-spacing: 0px;
+			color: #4d4c4c;
+		}
+	}
+	.item-field {
+		height: 50px;
+		border-bottom: 1px solid rgb(191, 191, 191, 0.4);
+	}
+	.setting-menu {
+		padding-top: 0px;
+	}
+}
